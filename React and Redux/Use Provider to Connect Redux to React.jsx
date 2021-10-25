@@ -68,7 +68,7 @@ class AppWrapper extends React.Component {
     // Render the Provider below this line
     render() {
         return (
-            <Provider>
+            <Provider store={store}>
                 <DisplayMessages />
             </Provider>
         );
